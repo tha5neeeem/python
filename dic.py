@@ -1,0 +1,11 @@
+a={'name':'nihana','email':'nihana111@gmail.com','phno':4567345876}
+print(a)
+print(a['name'])
+a['name']='thasneem'
+print(a)
+a['age']=20
+print(a)
+b=a.copy()
+print(b)
+b.pop('email')
+print(b)

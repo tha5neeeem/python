@@ -1,0 +1,25 @@
+s={'red','blue','green'}
+print(s)
+print(len(s))
+print('red' in s)
+s.add('yellow')
+print(s)
+s.update(['gold'],['black'])
+print(s)
+s.remove('red')
+print(s)
+s.discard('black')
+print(s)
+# s.remove('aaa')
+print(s)
+s.discard('aaaa')
+print(s)
+s1={1,2,3}
+s2={4,5,6}
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.difference(s2))
+s1.clear()
+print(s1)
+del s1
+print(s1)
